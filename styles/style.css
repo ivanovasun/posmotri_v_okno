@@ -9,9 +9,9 @@ html {
 }
 
 .page {
-  inline-size: 1200px;
-  block-size: 100%;
-  margin: 0 auto;
+  /* inline-size: 1200px;
+  block-size: 100%; */
+  margin: auto;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
@@ -50,7 +50,10 @@ ol {
 .content {
   display: flex;
   gap: 30px;
-  margin: 133px 30px;
+  margin: 133px auto;
+  padding: 0 33px;
+  inline-size: 1200px;
+  block-size: 100%;
 }
 
 .result {
