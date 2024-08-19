@@ -11,7 +11,7 @@ html {
 .page {
   inline-size: 1200px;
   block-size: 100%;
-  margin: auto;
+  margin: 0 auto;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
@@ -68,8 +68,8 @@ ol {
 }
 
 .result__video {
-  width: 100%;
   height: 100%;
+  width: 100%;
   object-fit: cover;
   display: block;
 }
@@ -313,7 +313,7 @@ input[type='checkbox']:checked + span {
 
 .more-button {
   white-space: nowrap;
-  padding: 6px 145px;
-  margin: 2px 2px 3px;
+  padding: 5px 145px;
+  margin: 3px 2px;
   line-height: 22px;
 }
