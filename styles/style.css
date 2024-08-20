@@ -11,7 +11,8 @@ html {
 .page {
   inline-size: 1200px;
   block-size: 100%;
-  margin: 0 auto;
+  margin: auto;
+  padding: 133px 30px;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
@@ -48,10 +49,7 @@ ol {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  margin-top: 211px;
-  margin-bottom: 133px;
-  margin-left: 30px;
-  block-size: inherit;
+  margin-top: 78px;
 }
 
 .result__video-container {
@@ -199,8 +197,6 @@ input[type='checkbox']:checked + span {
   display: flex;
   flex-direction: column;
   gap: 26px;
-  margin: 133px 30px 133px 0;
-  block-size: inherit;
 }
 
 .title {
