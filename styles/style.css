@@ -11,7 +11,7 @@ html {
 .page {
   inline-size: 1200px;
   block-size: 100%;
-  margin: 0 auto;
+  margin: auto;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
@@ -40,15 +40,14 @@ ol {
 .content {
   display: flex;
   gap: 30px;
-  align-items: flex-end;
-  width: 100%;
+  margin: 270px 30px;
 }
 
 .result {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  margin: 0 0 133px 30px;
+  margin-top: 81px;
 }
 
 .result__video-container {
@@ -188,8 +187,8 @@ input[type='checkbox']:checked + span {
 
 .search-form__submit-button {
   width: 100%;
-  margin-top: 20px;
-  padding: 6px 0;
+  margin-top: 22px;
+  padding: 5px 0;
 }
 
 .content__details {
@@ -197,7 +196,6 @@ input[type='checkbox']:checked + span {
   flex-direction: column;
   align-items: start;
   gap: 26px;
-  margin: 133px 30px 133px 0;
 }
 
 .title {
