@@ -40,20 +40,25 @@ ol {
 .content {
   display: flex;
   gap: 30px;
-  margin: 270px 30px;
+  justify-content: center;
+  align-items: center;
+  inline-size: 100%;
+  block-size: 100%;
 }
 
 .result {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  margin-top: 81px;
+  margin-top: 133px;
+  margin-left: 30px;
 }
 
 .result__video-container {
   position: relative;
   inline-size: 711px;
   block-size: 386px;
+  margin-top: 78px;
 }
 
 .result__video {
@@ -194,8 +199,10 @@ input[type='checkbox']:checked + span {
 .content__details {
   display: flex;
   flex-direction: column;
-  align-items: start;
   gap: 26px;
+  width: 100%;
+  margin-top: 133px;
+  margin-right: 30px;
 }
 
 .title {
