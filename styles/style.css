@@ -16,6 +16,9 @@ html {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h1,
@@ -40,10 +43,8 @@ ol {
 .content {
   display: flex;
   gap: 30px;
-  justify-content: center;
-  align-items: center;
-  inline-size: 100%;
-  block-size: 100%;
+  margin: 133px 30px;
+  inline-size: 1140px;
 }
 
 .result {
@@ -51,22 +52,18 @@ ol {
   flex-direction: column;
   justify-content: end;
   gap: 16px;
-  margin-top: 133px;
-  margin-left: 30px;
-  margin-bottom: 130px;
 }
 
 .result__video-container {
   position: relative;
-  inline-size: 711px;
-  block-size: 386px;
   margin-top: 78px;
 }
 
 .result__video {
-  height: 100%;
-  width: 100%;
+  inline-size: 711px;
+  block-size: 386px;
   object-fit: cover;
+  object-position: center;
   display: block;
 }
 
@@ -204,12 +201,10 @@ input[type='checkbox']:checked + span {
 .content__details {
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  inline-size: 100%;
+  block-size: 100%;
+  justify-content: space-between;
   gap: 26px;
-  margin-top: 133px;
-  margin-right: 30px;
-  margin-bottom: 133px;
-  width: 100%;
 }
 
 .title {
@@ -227,15 +222,10 @@ input[type='checkbox']:checked + span {
 }
 
 .content__list {
-  max-height: 298px;
+  block-size: 298px;
   overflow-y: auto;
   position: relative;
   inline-size: 100%;
-  margin-top: 298px;
-}
-
-.content__list:has(.content__list-item) {
-  margin-top: 0;
 }
 
 .content__list-item {
